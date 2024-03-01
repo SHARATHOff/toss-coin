@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Toss a Coin</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" integrity="sha384-4LISF5TTJX/fLmGSxO53rV4miRxdg84mZsxmO8Rx5jGtp/LbrixFETvWa5a6sESd" crossorigin="anonymous">
+        <link rel="icon" href="unnamed.png">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="gam_e.css">
+    </head>
+    <body>
+        <div class="main">
+        <h1>Toss A Coin</h1>
+        <button onclick="headsortails()">Toss</button>
+        <p id="score"></p>
+        <p id="p"></p>
+    </div>
+        <script>
+            let heads = 0;
+            let tails = 0;
+            
+            function headsortails(){
+                
+                let r = Math.random();
+                if (r<=1/2){
+                    heads++;
+                }
+                else {
+                    tails++;
+                    
+                }
+                document.getElementById('score').innerHTML = "heads : "+heads + " tails : "+tails;
+            }
+            
+                
+            
+        </script>
+    </body>
+</html>

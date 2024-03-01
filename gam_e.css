@@ -1,0 +1,33 @@
+.main{
+    padding: 10% 10% 10% 10%;
+    width: auto;
+    height: auto;
+    background-color:blanchedalmond;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 90px;
+}
+a{
+    
+    text-decoration:none;
+}
+a:link{color: skyblue}
+a:hover{color: plum;}
+a:visited{color: gray;}
+a:active{color: black;}
+h1{
+    color: teal;
+    
+}
+footer {
+    height: 40px;
+    font-size: 100px;
+    text-align: center;
+    }
+button{
+    
+    color:chocolate;
+    background-color: aquamarine;
+    font-size:x-large;
+    border: none;
+}
