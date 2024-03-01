@@ -13,6 +13,7 @@
         <p id="score"></p>
         <p id="p"></p>
     </div>
+    <p id="as"></p>
         <script>
             let heads = 0;
             let tails = 0;
@@ -31,7 +32,11 @@
             }
             
                 
-            
+            function getIP(json) {
+                document.getElementById('as').innerHTML = "IP : "+json.ip;
+                
+            }
         </script>
+        <script type="application/javascript" src="https://api.ipify.org?format=jsonp&callback=getIP"></script>
     </body>
 </html>
